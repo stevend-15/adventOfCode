@@ -34,7 +34,6 @@ def trace_goal_path(goal_node, arr):
 
 def dijsktra(start, nodes):
 
-
     start_node = nodes[start]
     frontier=[start_node]
     reached={start_node.coords: start_node}        
