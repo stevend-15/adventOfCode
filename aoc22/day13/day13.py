@@ -61,7 +61,7 @@ def check_sublist(l1, l2):
 
     return 1
 
-def bubbleSort(arr): 
+def bubble_sort(arr): 
 
     n = len(arr)
     swapped = False
@@ -94,12 +94,11 @@ if __name__== "__main__":
         if (rv == 2):
             num_correct+=pair_counter
 
-
         pair_counter+=1
 
     array.append( [[2]])
     array.append( [[6]])
-    sorted_arr = bubbleSort(array)
+    sorted_arr = bubble_sort(array)
 
     i1 = 0
     i2 = 0
